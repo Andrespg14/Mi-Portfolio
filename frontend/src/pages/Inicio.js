@@ -23,16 +23,13 @@ export default function Inicio() {
                 </div>
                 
                 <div className="botones-inicio">
-                    <Button variant="primary" href="/habilidades" className="me-2">Mis Habilidades</Button>
-                    <Button variant="primary" href="/proyectos" className="me-2">Mis Proyectos</Button>
-                    <Button variant="secondary" href="/sobre-mi">Sobre Mí</Button>
+                    <Button href="/habilidades">Habilidades</Button>
+                    <Button href="/proyectos">Proyectos</Button>
+                    <Button href="/sobre-mi">Sobre Mí</Button>
                 </div>
             </div>
         </div>
     );
-    // Todo: Add content for the Inicio page
-
-
 }
 
 

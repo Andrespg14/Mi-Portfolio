@@ -1,24 +1,25 @@
 .header-navbar {
-  background-color: #178491;
+  background-color: #fcd77b;
   font-size: x-large;
 }
 
 .header-navbar .nav-link {
-  color: white;
+  color: #000000 !important;
   font-weight: normal;
   margin: 0 10px;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 1s;
 }
 
 .header-navbar .nav-link.active {
   font-weight: bold;
-  background-color: aquamarine;
+  background-color: #00ebfc8f;
 }
 
 .header-navbar .nav-link:hover {
-  background-color: aquamarine;
+  background-color: #00ebfc8f;
 }
 
 .header-navbar .navbar-toggler {
-  border-color: white;
+  border-color: #ECF0F1;
 }

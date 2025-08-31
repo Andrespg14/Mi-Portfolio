@@ -19,7 +19,7 @@
   height: 600px;
   object-fit: cover;
   border-radius: 25%;
-  border: 4px solid #f4f000;
+  border: 4px solid #ffd900;
   box-shadow: 0 2px 12px rgba(0,0,0,0.2);
 }
 
@@ -35,7 +35,24 @@
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  font-size: larger;
+  font-size: x-large;
   font-weight: 500;
   font-family: 'Ubuntu', sans-serif;
+}
+.botones-inicio {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.botones-inicio .btn {
+  background-color: #004044;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 125%;
+  cursor: pointer;
+  transition: background-color 0.7s;
+}
+.botones-inicio .btn:hover {
+  background-color: #10acb8;
 }
