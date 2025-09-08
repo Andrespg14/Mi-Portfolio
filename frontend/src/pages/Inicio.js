@@ -9,7 +9,7 @@ export default function Inicio() {
     return (
         <div className="inicio-container">
             <div className="inicio-foto">
-                <img src="logo512.png" alt="Foto de perfil" />
+                <img src="fotoPerfil.png" alt="Foto de perfil" />
             </div>
             <div className="inicio-textos">
                 <h1>¡Hola, soy Andrés!</h1>

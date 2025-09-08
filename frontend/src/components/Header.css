@@ -1,19 +1,21 @@
 .header-navbar {
-  background-color: #fcd77b;
+  background-color: #070334;
   font-size: x-large;
+  border-bottom: 5px solid #00a9af;
 }
 
 .header-navbar .nav-link {
-  color: #000000 !important;
+  color: #ffffff !important;
   font-weight: normal;
   margin: 0 10px;
   border-radius: 0.8rem;
   transition: background-color 1s;
+  border-bottom: 2px solid white;
 }
 
 .header-navbar .nav-link.active {
   font-weight: bold;
-  background-color: #00ebfc8f;
+  background-color: #1296a0;
 }
 
 .header-navbar .nav-link:hover {
