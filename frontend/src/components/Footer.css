@@ -1,3 +1,5 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 .footer {
     background-color: #070334;
     color: white;
@@ -5,4 +7,20 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: large;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0.5rem 0 0 0;
+    font-size: medium;
 }
