@@ -1,0 +1,81 @@
+.habilidades-container {
+  color: black;
+  display: flex;
+  min-height: 80vh;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.softskills {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.softskills .softskills-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hardskills {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 2%;
+}
+
+.hardskills .hardskill-category {
+  list-style-type: none;
+  padding: 0;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+.hardskills .hardskill-category ul {
+  list-style-type: none;
+  padding-left: 20px;
+  font-size: x-large;
+  font-weight: 400;
+  border-top: 2px solid #000000;
+}
+
+
+.hardskills ul li{
+  text-align: left;
+  padding-left: 15%;
+}
+
+.hardskills h2 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom: 5px solid #000000;
+  padding-bottom: 0.5rem;
+}
+
+.softskills h2 {
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom: 5px solid #000000;
+  padding-bottom: 0.5rem;
+}
+
+.softskills ul li {
+  text-align: left;
+  list-style-type: disc;
+  padding-bottom: 5%;
+}

@@ -4,7 +4,7 @@
     background-color: #070334;
     color: white;
     padding: 1rem;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
