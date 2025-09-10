@@ -1,0 +1,15 @@
+.div-proyectos-padre{
+  margin: 12%;
+  margin-top: 0%;
+}
+.div-proyectos-padre .container-proyectos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.div-proyectos-padre .container-proyectos .card{
+  border: 2px solid black;
+}
