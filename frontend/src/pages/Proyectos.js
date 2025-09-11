@@ -6,19 +6,28 @@ export default function Proyectos() {
     <div className="div-proyectos-padre">
         <div className="container-proyectos">
             <div className="card" style={{"width": "40rem"}}>
-            <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <h5 className="card-title">Trabajo de Fin de Grado</h5>
+                    <ul style={{textAlign: 'left'}}>
+                        <li><b>Título:</b> Modelado y análisis de un sistema autónomo para supervisión de incendios forestales.</li>
+                        <li><b>Tecnologías:</b> Java, PRISM Modelchecker, Propiedades PCTL</li>
+                        <li><b>Descripción:</b> Modelado dinámico mediante un script en Java de un escenario de incendio con drones supervisores junto con la verificación
+                        de propiedades de seguridad utilizando PRISM Modelchecker.</li>
+                        <li><b>Nota:</b> 8,5/10.</li>
+                    </ul>
+                    <a href="https://drive.google.com/drive/folders/1EpmA2eTTy5kJrsd15vz_PDLhxXawRfYV?usp=sharing" className="btn btn-primary">Más información</a>
                 </div>
             </div>
             <div className="card" style={{"width": "40rem"}}>
-            <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <h5 className="card-title">Aplicación web fullstack</h5>
+                    <ul style={{textAlign: 'left'}}>
+                        <li><b>Tecnologías:</b> React, Node.js, Express.js, MongoDB Atlas, Docker.</li>
+                        <li><b>Descripción:</b> Aplicación web desarrollada como proyecto de asignatura en la Universidad de Málaga. Consiste en la compraventa de productos mediante subasta, semejante a eBay.
+                        Incluye autenticación de usuarios, gestión de productos y sistema de pujas en tiempo real.</li>
+                        <li><b>Funcionalidades adicionales:</b> Integración de pagos con Paypal, gestión de acceso median OAuth2.0 y un sistema de cuentas de Google. Integración de Google Maps. Carga y almacenamiento de imágenes mediante Cloudinary.</li>
+                    </ul>
+                    <a href="https://github.com/victoriaemc/ElRastro" className="btn btn-primary">Enlace al repositorio</a>
                 </div>
             </div>
             
