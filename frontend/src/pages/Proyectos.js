@@ -15,7 +15,9 @@ export default function Proyectos() {
                         de propiedades de seguridad utilizando PRISM Modelchecker.</li>
                         <li><b>Nota:</b> 8,5/10.</li>
                     </ul>
-                    <a href="https://drive.google.com/drive/folders/1EpmA2eTTy5kJrsd15vz_PDLhxXawRfYV?usp=sharing" className="btn btn-primary">Más información</a>
+                    <div className="card-buttons">
+                        <a href="https://drive.google.com/drive/folders/1EpmA2eTTy5kJrsd15vz_PDLhxXawRfYV?usp=sharing" className="btn btn-primary">Más información</a>
+                    </div>
                 </div>
             </div>
             <div className="card" style={{"width": "40rem"}}>
@@ -27,7 +29,10 @@ export default function Proyectos() {
                         Incluye autenticación de usuarios, gestión de productos y sistema de pujas en tiempo real.</li>
                         <li><b>Funcionalidades adicionales:</b> Integración de pagos con Paypal, gestión de acceso median OAuth2.0 y un sistema de cuentas de Google. Integración de Google Maps. Carga y almacenamiento de imágenes mediante Cloudinary.</li>
                     </ul>
-                    <a href="https://github.com/victoriaemc/ElRastro" className="btn btn-primary">Enlace al repositorio</a>
+                    <div className="card-buttons">
+                        <a href="https://github.com/victoriaemc/ElRastro" className="btn btn-primary">Enlace al repositorio</a>
+                    </div>
+
                 </div>
             </div>
             

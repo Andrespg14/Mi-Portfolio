@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url('../public/Gemini_Generated_Image_8u7jn88u7jn88u7j.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 

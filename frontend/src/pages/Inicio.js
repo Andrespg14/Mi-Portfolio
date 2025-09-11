@@ -3,9 +3,6 @@ import './inicio.css';
 import { Button } from 'react-bootstrap';
 
 export default function Inicio() {
-    // TODO: PONER LINKS A GITHUB Y LINKEDIN
-    // TODO: BOTON VER PROYECTOS O DESCARGAR CV
-
     return (
         <div className="inicio-container">
             <div className="inicio-foto">
