@@ -1,8 +1,8 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
 .footer {
-    background-color: #070334;
-    color: white;
+    background-color: #01161e;
+    color: #eff6e0;
     padding: 1rem;
     position: sticky;
     bottom: 0;
@@ -10,7 +10,7 @@
 }
 
 .footer a {
-    color: white;
+    color: #eff6e0;
     margin: 0 1rem;
     text-decoration: none;
     font-size: large;
