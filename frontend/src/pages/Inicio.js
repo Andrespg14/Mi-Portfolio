@@ -22,7 +22,6 @@ export default function Inicio() {
                 <div className="botones-inicio">
                     <Button href="/habilidades">Habilidades</Button>
                     <Button href="/proyectos">Proyectos</Button>
-                    <Button href="/sobre-mi">Sobre Mí</Button>
                 </div>
             </div>
         </div>

@@ -8,13 +8,19 @@ function Header() {
   return (
     <Navbar expand="lg" sticky="top" className="header-navbar">
         <Container fluid className='d-flex'> 
-          <Navbar.Toggle aria-controls='basic-navbar-nav' as="button"></Navbar.Toggle>
+          <Navbar.Toggle aria-controls='basic-navbar-nav' as="button">
+            <i className="fa-solid fa-house"></i>
+          </Navbar.Toggle>
+          <span className='current-page ms-2'>
+            {window.location.pathname === '/' && 'Inicio'}
+            {window.location.pathname === '/habilidades' && 'Habilidades'}
+            {window.location.pathname === '/proyectos' && 'Proyectos'}
+          </span>
             <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className='mx-auto' activeKey={window.location.pathname}>
                     <Nav.Link href='/'>Inicio</Nav.Link>
                     <Nav.Link href='/habilidades'>Habilidades</Nav.Link>
                     <Nav.Link href='/proyectos'>Proyectos</Nav.Link>
-                    <Nav.Link href='/sobre-mi'>Sobre mi</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>

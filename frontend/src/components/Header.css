@@ -2,6 +2,8 @@
   background-color: #01161e;
   font-size: x-large;
   border-bottom: 5px solid #598392;
+  position: sticky;
+  top: 0;
 }
 
 .header-navbar .nav-link {
@@ -24,4 +26,16 @@
 
 .header-navbar .navbar-toggler {
   border-color: #eff6e0;
+}
+
+.header-navbar i.fa-house {
+  color: #eff6e0;
+  font-size: 2rem;
+}
+
+.current-page {
+  color: #eff6e0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-self: center;
 }

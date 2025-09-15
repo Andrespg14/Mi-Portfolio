@@ -1,11 +1,12 @@
 .App {
   text-align: center;
-  background-color: #aec3b0;
   min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url('../public/Gemini_Generated_Image_8u7jn88u7jn88u7j.png');
+
+  background-image: url('../public/RosaNegra.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
