@@ -33,9 +33,15 @@
   font-size: 2rem;
 }
 
-.current-page {
-  color: #eff6e0;
-  font-size: 1.5rem;
-  font-weight: bold;
-  align-self: center;
+.current-page-mobile {
+    color: #eff6e0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-self: center;
+  }
+
+@media (min-width: 992px) {
+  .current-page-mobile {
+  display: none;
+  }
 }

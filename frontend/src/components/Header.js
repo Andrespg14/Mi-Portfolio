@@ -11,7 +11,7 @@ function Header() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' as="button">
             <i className="fa-solid fa-house"></i>
           </Navbar.Toggle>
-          <span className='current-page ms-2'>
+          <span className='current-page-mobile ms-2'>
             {window.location.pathname === '/' && 'Inicio'}
             {window.location.pathname === '/habilidades' && 'Habilidades'}
             {window.location.pathname === '/proyectos' && 'Proyectos'}
