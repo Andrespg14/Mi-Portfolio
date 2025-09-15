@@ -10,12 +10,12 @@ import Habilidades from './pages/Habilidades';
 function App() {
   return (
     <div className="App">
-      <Header />
       <HashRouter>
+        <Header />
         <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/habilidades" element={<Habilidades />} />
-          <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="" element={<Inicio />} />
+          <Route path="habilidades" element={<Habilidades />} />
+          <Route path="proyectos" element={<Proyectos />} />
         </Routes>
       </HashRouter>
       <Footer />

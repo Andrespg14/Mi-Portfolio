@@ -12,15 +12,15 @@ function Header() {
             <i className="fa-solid fa-house"></i>
           </Navbar.Toggle>
           <span className='current-page-mobile ms-2'>
-            {window.location.pathname === '/' && 'Inicio'}
-            {window.location.pathname === '/habilidades' && 'Habilidades'}
-            {window.location.pathname === '/proyectos' && 'Proyectos'}
+            {window.location.pathname === '' && 'Inicio'}
+            {window.location.pathname === 'habilidades' && 'Habilidades'}
+            {window.location.pathname === 'proyectos' && 'Proyectos'}
           </span>
             <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className='mx-auto' activeKey={window.location.pathname}>
-                    <Nav.Link href='/'>Inicio</Nav.Link>
-                    <Nav.Link href='/habilidades'>Habilidades</Nav.Link>
-                    <Nav.Link href='/proyectos'>Proyectos</Nav.Link>
+                    <Nav.Link href=''>Inicio</Nav.Link>
+                    <Nav.Link href='habilidades'>Habilidades</Nav.Link>
+                    <Nav.Link href='proyectos'>Proyectos</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
