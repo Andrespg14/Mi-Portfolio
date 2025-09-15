@@ -20,8 +20,8 @@ export default function Inicio() {
                 </div>
                 
                 <div className="botones-inicio">
-                    <Button href="/habilidades">Habilidades</Button>
-                    <Button href="/proyectos">Proyectos</Button>
+                    <Button href="habilidades">Habilidades</Button>
+                    <Button href="proyectos">Proyectos</Button>
                 </div>
             </div>
         </div>

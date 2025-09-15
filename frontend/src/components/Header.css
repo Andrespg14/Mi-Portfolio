@@ -12,12 +12,13 @@
   margin: 0 10px;
   border-radius: 0.8rem;
   transition: background-color 1s;
-  border-bottom: 2px solid #aec3b0;
+  
 }
 
 .header-navbar .nav-link.active {
   font-weight: bold;
   background-color: #124559;
+  border-bottom: 2px solid #aec3b0;
 }
 
 .header-navbar .nav-link:hover {

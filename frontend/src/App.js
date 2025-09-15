@@ -17,8 +17,8 @@ function App() {
           <Route path="habilidades" element={<Habilidades />} />
           <Route path="proyectos" element={<Proyectos />} />
         </Routes>
+        <Footer />
       </HashRouter>
-      <Footer />
     </div>
   );
 }
