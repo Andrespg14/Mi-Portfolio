@@ -1,6 +1,7 @@
 import React from "react";
 import './inicio.css';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Inicio() {
     return (
@@ -20,8 +21,8 @@ export default function Inicio() {
                 </div>
                 
                 <div className="botones-inicio">
-                    <Button href="habilidades">Habilidades</Button>
-                    <Button href="proyectos">Proyectos</Button>
+                    <Button as={Link} to="habilidades">Habilidades</Button>
+                    <Button as={Link} to="proyectos">Proyectos</Button>
                 </div>
             </div>
         </div>
