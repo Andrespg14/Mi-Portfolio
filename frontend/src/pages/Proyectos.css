@@ -32,3 +32,10 @@
   border: none;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .div-proyectos-padre{
+    margin: 5%;
+    margin-top: 0%;
+  }
+}
