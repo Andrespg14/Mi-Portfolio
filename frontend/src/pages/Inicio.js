@@ -2,13 +2,22 @@ import React, {useEffect} from "react";
 import './inicio.css';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import {useSwipeable} from 'react-swipeable';
 
 export default function Inicio() {
     useEffect(() => {
        window.scrollTo(0, 0);
     }, []);
+    const handlers = useSwipeable({
+        onSwipedLeft: () => {
+            window.location.href = '#/habilidades';
+        },
+        onSwipedRight: () => {
+            window.location.href = '#/proyectos';
+        }
+    });
     return (
-        <div className="inicio-container">
+        <div className="inicio-container" {...handlers}>
             <div className="inicio-foto">
                 <img src={process.env.PUBLIC_URL + "/fotoPerfil.png"} alt="Foto de perfil" />
             </div>

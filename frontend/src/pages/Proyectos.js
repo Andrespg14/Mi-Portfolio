@@ -1,12 +1,21 @@
 import React, {useEffect} from "react";
 import './Proyectos.css'
+import {useSwipeable} from 'react-swipeable';
 
 export default function Proyectos() {
     useEffect(() => {
        window.scrollTo(0, 0);
     }, []);
+    const handlers = useSwipeable({
+            onSwipedRight: () => {
+                window.location.href = '#/habilidades';
+            },
+            onSwipedLeft: () => {
+                window.location.href = '#/';
+            }
+        });
     return (
-    <div className="div-proyectos-padre">
+    <div className="div-proyectos-padre" {...handlers}>
         <div className="container-proyectos">
             <div className="card" style={{"width": "40rem"}}>
                 <div className="card-body">

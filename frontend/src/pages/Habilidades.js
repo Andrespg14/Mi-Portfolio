@@ -1,14 +1,22 @@
 import React, { useEffect } from "react";
 import './Habilidades.css';
+import {useSwipeable} from 'react-swipeable';
 
 export default function Habilidades() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+    const handlers = useSwipeable({
+        onSwipedRight: () => {
+            window.location.href = '#/';
+        },
+        onSwipedLeft: () => {
+            window.location.href = '#/proyectos';
+        }
+    });
     return (
         <div>
-            <div className="habilidades-container">
-                
+            <div className="habilidades-container" {...handlers}>
                 <div className="hardskills">
                     <h2>Habilidades Técnicas</h2>
                     <ul className="hardskill-category">
