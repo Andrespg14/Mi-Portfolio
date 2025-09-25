@@ -1,7 +1,7 @@
 .header-navbar {
-  background-color: #01161e;
+  background-color: #0F0F0F;
   font-size: x-large;
-  border-bottom: 5px solid #598392;
+  border-bottom: 2px solid #005B41;
   position: sticky;
   top: 0;
 }
@@ -17,16 +17,16 @@
 
 .header-navbar .nav-link.active {
   font-weight: bold;
-  background-color: #124559;
-  border-bottom: 2px solid #aec3b0;
+  background-color: #005B41;
 }
 
 .header-navbar .nav-link:hover {
-  background-color: #124559;
+  background-color: #008170;
 }
 
 .header-navbar .navbar-toggler {
   border-color: #eff6e0;
+  margin-bottom: 1%;
 }
 
 .header-navbar i.fa-bars {
@@ -38,7 +38,7 @@
     color: #eff6e0;
     font-size: 1.5rem;
     font-weight: bold;
-    align-self: center;
+    align-self: auto;
   }
 
 @media (min-width: 992px) {
