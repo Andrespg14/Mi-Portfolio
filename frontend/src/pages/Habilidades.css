@@ -23,8 +23,9 @@
   padding-right: 2%;
   background-color: #eff6e0;
   border-radius: 1rem;
-  border-color: #124559;
+  border-color: #005B41;
   border-style: solid;  
+  border-width: 3px;
 }
 
 .softskills .softskills-list {
@@ -45,8 +46,9 @@
   padding-top: 1.5rem;
   background-color: #eff6e0;
   border-radius: 1rem;
-  border-color: #124559;
+  border-color: #005B41;
   border-style: solid;
+  border-width: 3px;
 }
 
 .hardskills .hardskill-category {
