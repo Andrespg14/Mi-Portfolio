@@ -19,9 +19,7 @@
   width: 500px;
   height: 650px;
   object-fit: cover;
-  border: 4px solid transparent;
   border-radius: 5%;
-  
 }
 
 .inicio-textos {
@@ -34,8 +32,9 @@
   background: #eff6e0;
   color: #222;
   border-radius: 1rem;
-  border-color: #124559;
-  border-style: solid;
+  border-color: #008170;
+  border-style: ridge;
+  border-width: 20px;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   font-size: x-large;
@@ -48,17 +47,20 @@
   gap: 1rem;
 }
 .botones-inicio .btn {
-  background-color: #124559;
-  border: none;
-  border-radius: 0.5rem;
+  background-color: #005B41;
+  border-radius: 12px;
+  border-color: #eff6e0;
+  border-width: 2px;
   padding: 0.5rem 1rem;
   font-size: 125%;
   cursor: pointer;
   transition: background-color 0.7s;
 }
 .botones-inicio .btn:hover {
-  background-color: #598392;
+  background-color: #008170;
+  border-color: #005B41;
 }
+
 
 @media (max-width: 768px) {
   .inicio-container {
@@ -77,9 +79,9 @@
     height: auto;
     max-width: 300px;
     border-radius: 20px;
-    border: 3px solid #598392;
+    border: 3px solid #008170;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    background-color: #124559;
+    background-color: #0f0f0fe2;
   }
 
   .inicio-textos {
