@@ -1,7 +1,8 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
 .footer {
-    background-color: #01161e;
+    background-color: #0F0F0F;
+    border-top: 2px solid #005B41;
     color: #eff6e0;
     padding: 1rem;
     position: sticky;
