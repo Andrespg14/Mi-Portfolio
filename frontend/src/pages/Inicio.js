@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './inicio.css';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default function Inicio() {
+    useEffect(() => {
+       window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="inicio-container">
             <div className="inicio-foto">

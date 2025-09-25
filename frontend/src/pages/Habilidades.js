@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Habilidades.css';
 
 export default function Habilidades() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <div className="habilidades-container">

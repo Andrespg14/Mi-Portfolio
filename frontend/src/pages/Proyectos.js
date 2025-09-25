@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './Proyectos.css'
 
 export default function Proyectos() {
+    useEffect(() => {
+       window.scrollTo(0, 0);
+    }, []);
     return (
     <div className="div-proyectos-padre">
         <div className="container-proyectos">
