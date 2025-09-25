@@ -11,7 +11,7 @@
 }
 
 .div-proyectos-padre .container-proyectos .card{
-  border: 4px solid #124559;
+  border: 4px solid #005B41;
   border-radius: 15px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   background-color: #eff6e0;
@@ -28,9 +28,13 @@
 }
 
 .div-proyectos-padre .container-proyectos .card .btn-primary{
-  background-color: #124559;
+  background-color: #005B41;
   border: none;
   display: block;
+}
+
+.div-proyectos-padre .container-proyectos .card .btn-primary:hover{
+  background-color: #008170;
 }
 
 @media (max-width: 768px) {
