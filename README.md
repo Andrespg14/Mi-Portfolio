@@ -3,7 +3,7 @@
 
 Este es el frontend de mi portfolio personal, desarrollado con **React** y desplegado en **GitHub Pages**.
 
-🔗 [Ver online]([https://tuusuario.github.io/portfolio](https://andrespg14.github.io/Mi-Portfolio/))
+🔗 [Ver online](https://andrespg14.github.io/Mi-Portfolio/)
 
 ## 🚀 Tecnologías
 - React
