@@ -13,5 +13,6 @@ Este es el frontend de mi portfolio personal, desarrollado con **React** y despl
 
 ## ⚙️ Cómo ejecutar en local
 ```bash
+cd .\frontend\
 npm install
 npm start
